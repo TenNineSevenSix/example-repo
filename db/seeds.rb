@@ -30,3 +30,6 @@ PhotoTaggedUser.create([
 UserFollowerRelationship.create(user: susan, follower: pault)
 UserFollowerRelationship.create(user: pault, follower: jeffy)
 UserFollowerRelationship.create(user: jeffy, follower: susan)
+
+
+test

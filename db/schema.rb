@@ -51,6 +51,8 @@ ActiveRecord::Schema.define(version: 20161027045356) do
     t.index ["user_id"], name: "index_user_follower_relationships_on_user_id"
   end
 
+  test
+
   create_table "users", force: :cascade do |t|
     t.string   "email"
     t.binary   "password_hash"
